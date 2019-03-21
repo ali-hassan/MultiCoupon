@@ -204,7 +204,7 @@ Coupons uses [I18n](http://guides.rubyonrails.org/i18n.html). It has support for
 ## Contributing
 
 1. Before implementing anything, create an issue to discuss your idea. This only applies to big changes and new features.
-2. Fork it ( https://github.com/fnando/coupons/fork )
+2. Fork it ( https://github.com/ali-hassan/coupons/fork )
 3. Create your feature branch (`git checkout -b my-new-feature`)
 4. Commit your changes (`git commit -am 'Add some feature'`)
 5. Push to the branch (`git push origin my-new-feature`)
