@@ -1,0 +1,20 @@
+<% content_for(:page_action) do %>
+  <%= link_to t('coupons.actions.go_back'), coupons_path, class: 'button rounded gray' %>
+<% end %>
+
+<div class="panel">
+  <div class="panel-title">
+    <%= t('coupons.are_you_sure_you_want_to_remove_html') %>
+  </div>
+
+  <div class="panel-body">
+    <p>
+      <%= t('coupons.you_cant_undo_removal_html') %>
+    </p>
+
+    <p>
+      <%= button_to t('coupons.actions.confirm'), coupon_path(@coupon), method: 'delete', class: 'button rounded red' %>
+      <%= link_to t('coupons.actions.cancel'), coupons_path %>
+    </p>
+  </div>
+</div>

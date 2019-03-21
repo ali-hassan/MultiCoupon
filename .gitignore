@@ -1,0 +1,32 @@
+.DS_Store
+db/sphinx
+config/database.yml
+config/session_secret
+tmp/
+doc/api
+doc/app
+log/*.log
+log/*.pid
+log/.DS_Store
+log/*.age
+log/*.db
+coverage/
+.idea/
+.env
+
+# React on Rails
+npm-debug.log*
+node_modules
+client/node_modules
+
+# Generated js bundles
+/app/assets/webpack/*
+
+# Generated i18n-js bundles
+/app/assets/javascripts/i18n/*
+/client/app/i18n/*
+/client/app/routes/*
+# Mocha results
+test-results.xml
+
+.byebug_history

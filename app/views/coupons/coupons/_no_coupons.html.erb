@@ -1,0 +1,13 @@
+<div class="panel panel-no-coupons">
+  <h1 class="panel-title"><%= t('coupons.blank_slate.no_coupons') %></h1>
+
+  <div class="panel-body">
+    <p>
+      <%= t('coupons.blank_slate.no_coupons_description') %>
+    </p>
+
+    <p>
+      <%= link_to t('coupons.new_coupon_button'), new_coupon_path, class: 'button rounded green' %>
+    </p>
+  </div>
+</div>

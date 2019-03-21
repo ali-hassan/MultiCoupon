@@ -1,0 +1,126 @@
+en:
+  date:
+    formats:
+      coupon: '%b %d, %Y'
+
+  page_meta:
+    titles:
+      base: "%{value}"
+      coupons:
+        coupons:
+          index: Coupons
+          new: New Coupon
+          edit: Edit Coupon
+          remove: Remove Coupon
+          duplicate: Duplicate Coupon
+
+  views:
+    pagination:
+      first: "&laquo; First"
+      last: "Last &raquo;"
+      previous: "&lsaquo; Prev"
+      next: "Next &rsaquo;"
+      truncate: "&hellip;"
+
+  paginate:
+    previous: 'Previous page'
+    next: 'Next page'
+    page: 'Page %{page}'
+
+  coupons:
+    new_coupon_button: 'Create Coupon'
+    are_you_sure_you_want_to_remove_html: >
+      Are you sure you want to remove this coupon?
+    you_cant_undo_removal_html: >
+      All redemption trackings will be removed as well.
+      <strong>You won't be able to undo this action.</strong>
+
+    blank_slate:
+      no_coupons: No Coupons
+      no_coupons_description: You haven't created coupons yet. This is where they'll appear.
+
+    selected_rules:
+      one: '${count} coupon selected'
+      other: '${count} coupons selected'
+
+    'off':
+      amount_html: '<span class="amount">$%{amount} OFF</span>'
+      percentage_html: '<span class="percentage">%{amount}% OFF</span>'
+
+    redeemed_html:
+      zero: <span class="mute">Not yet</span>
+      one: '%{count}/<span class="limit">%{limit}</span>'
+      other: '%{count}/<span class="limit">%{limit}</span>'
+
+    limit_html:
+      zero: '<span class="infinite">∞</span>'
+      one: '%{count}'
+      other: '%{count}'
+
+    columns:
+      description: 'Description'
+      discount: 'Discount'
+      redeemed: 'Redeemed'
+      expiration: 'Expiration'
+
+    actions:
+      edit: 'Edit'
+      remove: 'Remove'
+      confirm: "Yes, I'm sure!"
+      cancel: 'Never mind!'
+      go_back: 'Go Back'
+      duplicate: 'Duplicate'
+
+    flash:
+      coupons:
+        create:
+          notice: The coupon has been created!
+        update:
+          notice: The coupon has been updated!
+        destroy:
+          notice: The coupon has been removed!
+        batch:
+          invalid_action: 'This action is not valid.'
+          removal:
+            notice: 'The coupons have been removed!'
+
+    labels:
+      coupon:
+        description: 'Description'
+        redemption_limit: 'Redemption Limit'
+        type: 'Type'
+        amount: 'Amount'
+        code: 'Discount Code'
+        valid_from: 'Valid From'
+        valid_until: 'Valid Until'
+
+    hints:
+      coupon:
+        type: 'Select how this coupon will apply the discount.'
+        code: 'Customers will inform this code when checking out.'
+        description: 'Describe this coupon, so you can remember why it exists.'
+        redemption_limit: 'Set how many times this coupon can be used. Zero means no limit.'
+        amount: 'This is the actual discount amount. 0-100 for percentage, zero or positive number for amount.'
+        valid_from: 'When this coupon will be available.'
+        valid_until: 'When will this coupon expire. By default, it does not expire.'
+
+    form_error_description: 'You must double check the form:'
+
+    coupon:
+      type:
+        amount: 'Amount ($)'
+        percentage: 'Percentage (%)'
+
+      buttons:
+        create: 'Create Coupon'
+        edit: 'Update Coupon'
+        remove_selected: 'Remove Coupons'
+
+      no_description: 'No description provided'
+      dont_expire: Never
+
+  activerecord:
+    errors:
+      messages:
+        coupon_already_expired: must be equal to or greater than today
+        coupon_valid_until: must be greater than or equal to valid from date.

@@ -1,0 +1,9 @@
+<% content_for(:page_action) do %>
+  <%= link_to t('coupons.new_coupon_button'), new_coupon_path, class: 'button rounded green' %>
+<% end %>
+
+<% if @coupons.any? %>
+  <%= render 'coupons', coupons: @coupons %>
+<% else %>
+  <%= render 'no_coupons' %>
+<% end %>
