@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'rails', '>= 4.2.0',  '< 5.2.4.4'
+  spec.add_dependency 'rails', '>= 4.2.0',  '< 6.1.1'
   spec.add_dependency 'autoprefixer-rails'
   spec.add_dependency 'sass-rails'
   spec.add_dependency 'page_meta'
