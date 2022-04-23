@@ -80,7 +80,7 @@ Coupons.apply('invalid', amount: 100.00)
 #=> {:amount => 100.0, :discount => 0, :total => 100.0}
 ```
 
-To redeem the coupon you can use `Coupon.redeem`.
+### To redeem the coupon you can use `Coupon.redeem`.
 
 ```ruby
 Coupons.redeem('RAILSCONF15', amount: 600.00)
