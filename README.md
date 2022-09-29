@@ -6,7 +6,7 @@
 [![Gem Version](https://img.shields.io/gem/v/coupons.svg)](https://rubygems.org/gems/coupons)
 [![Dependencies](https://img.shields.io/gemnasium/fnando/coupons.svg)](https://rubygems.org/gems/coupons)
 
-Coupons is a Rails engine for creating discount coupons.
+Multi Coupons is a Rails engine for creating discount coupons.
 
 ## Installation
 
