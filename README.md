@@ -1,7 +1,7 @@
 # Multi Coupons
 
 Multi Coupons is a Rails engine for creating discount coupons.
-
+You can create multiple coupons set their expiry date and you can even set its time of use and everything related to it.
 ## Installation
 
 Add this line to your application's Gemfile:
